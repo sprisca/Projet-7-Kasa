@@ -1,0 +1,21 @@
+
+body {
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1440px;
+    margin: auto;
+   
+}
+
+ul {
+    list-style: none;
+}
+
+#root {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+  
+}
+

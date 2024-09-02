@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 75px 0 75px;
+    @media screen and (max-width : 768px) {
+        padding: 20px 25px 0;
+    
+    }
+}
+
+.navbar img {
+    height: 68px;
+    @media screen and (max-width: 768px) {
+        height: 47px;
+    }
+}
+
+
+    ul {
+        display: flex;
+        gap: 40px;
+        list-style: none;
+        @media screen and (max-width: 768px) {
+            font-size: 12px;
+
+        }
+        
+        a {
+            text-decoration: none;
+            @media screen and (max-width: 768px) {
+                text-transform: uppercase;
+            }
+           
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    }
