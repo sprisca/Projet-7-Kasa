@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 40px;
+    width: 90%;
     border-radius: 25px;
     margin-top: 40px;
     padding: 40px;
@@ -22,6 +23,8 @@
 
     @media screen and (max-width: 768px) {
         height: 255px;
+        width: 90%;
+        
     }
     img {
         width: 100%;
