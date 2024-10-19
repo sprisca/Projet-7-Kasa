@@ -2,10 +2,10 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import data from '../../data/logements.json'
 import Slide from '../../components/slide/slide.jsx';
-import Error from '../error/error.jsx'
+import Error from '../error/error.jsx';
 import Collapse from '../../components/collapse/collapse.jsx';
 import Rating from '../../components/rating/rating.jsx';
-import './logement.scss'
+import './logement.scss';
 
 function Logement() {
   const { id } = useParams();
