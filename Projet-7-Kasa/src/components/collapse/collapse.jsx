@@ -5,7 +5,7 @@ import './collapse.scss'
 function Collapse({title, content}) {
 
   
-    const [ open, setOpen] = useState(false)
+    const [ open, setOpen] = useState(false) // ajouter un comportement dynamique avec un hooks
 
     const toggle = () => {
         setOpen(!open);
